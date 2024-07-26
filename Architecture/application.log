@@ -1,0 +1,98 @@
+[2024-07-26T09:09:15.656] [INFO] default - Server is running on port 3000
+[2024-07-26T09:32:30.218] [ERROR] default - ::1 - - "POST /api/update-score HTTP/1.1" 400 40 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:34:23.160] [INFO] default - Server is running on port 3000
+[2024-07-26T09:34:30.716] [INFO] default - Server is running on port 3000
+[2024-07-26T09:34:54.713] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 404 158 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:35:35.657] [INFO] default - Server is running on port 3000
+[2024-07-26T09:35:40.913] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 404 158 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:36:47.918] [INFO] default - Server is running on port 3000
+[2024-07-26T09:36:57.708] [ERROR] default - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hyunkel/99NEW-STEP2/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateToken (/Users/hyunkel/99NEW-STEP2/dist/controllers/authController.js:15:42)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:175:3)
+[2024-07-26T09:36:57.714] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 500 33 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:38:52.545] [INFO] default - Server is running on port 3000
+[2024-07-26T09:38:55.682] [ERROR] default - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hyunkel/99NEW-STEP2/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateToken (/Users/hyunkel/99NEW-STEP2/dist/controllers/authController.js:15:42)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:175:3)
+[2024-07-26T09:38:55.690] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 500 33 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:39:42.749] [INFO] default - Server is running on port 3000
+[2024-07-26T09:39:46.757] [ERROR] default - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hyunkel/99NEW-STEP2/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateToken (/Users/hyunkel/99NEW-STEP2/dist/controllers/authController.js:15:42)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:175:3)
+[2024-07-26T09:39:46.763] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 500 33 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:40:46.055] [INFO] default - Server is running on port 3000
+[2024-07-26T09:40:48.542] [ERROR] default - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hyunkel/99NEW-STEP2/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateToken (/Users/hyunkel/99NEW-STEP2/dist/controllers/authController.js:15:42)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:175:3)
+[2024-07-26T09:40:48.547] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 500 33 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:42:07.821] [INFO] default - Server is running on port 3000
+[2024-07-26T09:42:13.718] [ERROR] default - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hyunkel/99NEW-STEP2/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateToken (/Users/hyunkel/99NEW-STEP2/dist/controllers/authController.js:15:42)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:175:3)
+[2024-07-26T09:42:13.724] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 500 33 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:42:49.993] [INFO] default - Server is running on port 3000
+[2024-07-26T09:42:56.053] [ERROR] default - Error: secretOrPrivateKey must have a value
+    at Object.module.exports [as sign] (/Users/hyunkel/99NEW-STEP2/node_modules/jsonwebtoken/sign.js:111:20)
+    at generateToken (/Users/hyunkel/99NEW-STEP2/dist/controllers/authController.js:15:42)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:149:13)
+    at Route.dispatch (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/route.js:119:3)
+    at Layer.handle [as handle_request] (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/hyunkel/99NEW-STEP2/node_modules/express/lib/router/index.js:175:3)
+[2024-07-26T09:42:56.061] [ERROR] default - ::1 - - "POST /api/generate-token HTTP/1.1" 500 33 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:44:40.989] [INFO] default - Server is running on port 3000
+[2024-07-26T09:44:44.576] [INFO] default - ::1 - - "POST /api/generate-token HTTP/1.1" 200 186 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:45:11.800] [ERROR] default - ::1 - - "POST /api/update-score HTTP/1.1" 404 156 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:45:49.104] [INFO] default - Server is running on port 3000
+[2024-07-26T09:45:55.715] [INFO] default - ::1 - - "POST /api/generate-token HTTP/1.1" 200 186 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:46:21.151] [ERROR] default - ::1 - - "POST /api/update-score HTTP/1.1" 400 82 "" "PostmanRuntime/7.40.0"
+[2024-07-26T09:51:32.497] [INFO] default - Server is running on port 3000
+[2024-07-26T09:51:44.720] [INFO] default - Server is running on port 3000
+[2024-07-26T09:52:02.369] [INFO] default - Server is running on port 3000
+[2024-07-26T09:52:23.939] [INFO] default - Server is running on port 3000
+[2024-07-26T09:52:28.696] [INFO] default - ::1 - - "POST /api/update-score HTTP/1.1" 200 62 "" "PostmanRuntime/7.40.0"
+[2024-07-26T10:01:55.228] [INFO] default - ::1 - - "POST /api/update-score HTTP/1.1" 200 62 "" "PostmanRuntime/7.40.0"
+[2024-07-26T10:01:59.403] [INFO] default - ::1 - - "POST /api/update-score HTTP/1.1" 200 62 "" "PostmanRuntime/7.40.0"

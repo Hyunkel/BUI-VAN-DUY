@@ -1,0 +1,97 @@
+# TypeScript Express Project with MongoDB
+
+## Description
+
+This project is a backend application using TypeScript with Express and MongoDB to manage records. The application includes basic functionalities such as creating, updating, deleting, and retrieving records.
+
+## Requirements
+
+- Node.js (>= 14.x)
+- MongoDB
+- TypeScript
+
+## Installation
+
+1. **Clone Repository**
+
+   ```bash
+   git clone <REPOSITORY-URL>
+   cd <DIRECTORY-NAME>
+2. **Install Dependencies**
+npm install
+3. **Create .env File**
+PORT=3000
+MONGO_URI=mongodb://localhost:27017/your-database
+4. **Run the Project**
+npx ts-node src/server.ts
+To run the project in production mode, you need to compile the source code first:
+npm run build
+node dist/server.js
+API
+1. Create Record
+Endpoint: POST /api/records
+
+Description: Create a new record.
+
+Request Body:
+
+{
+  "name": "TEST",
+  "age": 30,
+  "score": 85
+}
+{
+  "_id": "record_id",
+  "name": "TEST",
+  "age": 30,
+  "score": 85
+}
+2. Get All Records
+Endpoint: GET /api/records
+
+Description: Retrieve all records.
+
+Successful Response:
+[
+  {
+    "_id": "record_id",
+    "name": "TEST",
+    "age": 30,
+    "score": 85
+  }
+]
+3. Update Record
+Endpoint: PUT /api/records/:id
+
+Description: Update the information of a record.
+
+Request Body:
+
+{
+  "name": "TEST",
+  "age": 31,
+  "score": 90
+}
+Successful Response:
+{
+  "_id": "record_id",
+  "name": "TEST",
+  "age": 31,
+  "score": 90
+}
+4. Delete Record
+Endpoint: DELETE /api/records/:id
+
+Description: Delete a record by ID.
+
+Successful Response:
+{
+  "message": "Record deleted successfully"
+}
+Error Handling
+The project includes middleware for handling errors and returning appropriate error messages when issues occur during request processing.
+
+Notes
+Ensure MongoDB is running and the MongoDB connection URL is correctly configured in the .env file.
+
+
